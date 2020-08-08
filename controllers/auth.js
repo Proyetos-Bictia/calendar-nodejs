@@ -70,7 +70,7 @@ const loginUsuario = async (req, res = response) => {
 
 
         res.status(200).json({
-            ok: false,
+            ok: true,
             uid: usuario.id,
             name: usuario.name,
             token
